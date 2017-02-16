@@ -1,0 +1,30 @@
+{
+  "name": "petercole",
+  "description": "Peter Cole's Portfolio",
+  "main": "index.html",
+  "authors": [
+    "peter cole"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "peter",
+    "cole",
+    "composer",
+    "music",
+    "bay",
+    "area"
+  ],
+  "homepage": "https://github.com/pcolebizz/petercole",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
