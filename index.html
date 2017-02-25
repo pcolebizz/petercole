@@ -13,7 +13,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="home">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand active" href="#">Peter Cole | Composer</a>
+              <a class="navbar-brand active" href="#home">Peter Cole | Composer</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -66,19 +66,19 @@
           <img class="first-slide" src="images/hp_slide1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Welcome!</h1>
+              <p>Thanks for dropping by! I am Peter Cole, a composer, producer, engineer and digital media arist from San Francisco. This is my website where I share my recent work.</p>
+              <p><a class="btn btn-lg btn-primary" href="#about" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="images/hp_slide4.jpg" alt="Second slide">
+          <img class="second-slide" src="images/hp_slide3.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>New CD!</h1>
+              <p>My new CD, How I Wonder, is now available to purchase at CDBaby - check it out!</p>
+              <p><a class="btn btn-lg btn-primary" href="#buy" role="button">Buy</a></p>
             </div>
           </div>
         </div>
@@ -86,9 +86,9 @@
           <img class="third-slide" src="images/hp_slide2.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Recent Music.</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#music" role="button">Listen</a></p>
             </div>
           </div>
         </div>
@@ -108,27 +108,28 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container master" id="master-container">
 
-      <!-- Three columns of text below the carousel -->
+    <!--div class="container news" id="news-container">
+
       <div class="row">
-        <div class="col-lg-4">
-          <!-- img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140" -->
-          <h2>Heading 1</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2>Heading 2</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2>Heading 3</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+	        <div class="col-lg-4">
+	          <h2>Heading 1</h2>
+	          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+	          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	        </div>
+	        <div class="col-lg-4">
+	          <h2>Heading 2</h2>
+	          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+	          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	        </div>
+	        <div class="col-lg-4">
+	          <h2>Heading 3</h2>
+	          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	        </div>
+	      </div>
+      </div--><!-- news -->
 
 
       <!-- START THE FEATURETTES -->
@@ -136,63 +137,122 @@
 
       <!--*********** ABOUT *****************-->
 
-      <hr class="featurette-divider" id="about">
+      <span class="featurette-divider" id="about"></span>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">About. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-           <img class="featurette-image img-responsive center-block" src="images/hp_slide4.jpg" alt="My Pic" width="300">
-        </div>
-      </div>
-
-      <hr class="featurette-divider" id="music">
-
-      <div class="row featurette">
+       <div class="row featurette" id="about-content">
         <div class="col-md-7 col-md-push-5">
-          <h2  class="featurette-heading">Music. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2  class="featurette-heading">About. <span class="text-muted"> Me.</span></h2>
+          	<p>
+          	Peter Cole is a self-taught musician, composer and producer from San Francisco, California. Ever since I made my first drum set out of coffee cans when I was ten years old, I have loved to perform, compose and produce all styles of music: classical, punk, Latin, world music, rock, jazz, electronic, new age, experimental. I particularly enjoy combining these different styles to make something completely new. 
+          	</p>
+          	<p>
+			My interest in these different genres continues to influence each piece of music that I create. Using both acoustic and electronic instrumentation, I currently focus mostly on instrumental piano and guitar-based music that moves between classical, ambient soundscapes and World music, as well as more orchestrated and hybrid music for film and/or movie trailers. I enjoy writing music for visuals (film, photography) and often visualize movement, characters, scenes and moods while I’m composing. 
+		  	</p>
+		 	<p>
+			As some of the song titles suggest, the music on my most recent release, "How I Wonder" was inspired by the dreamy mystery and wonder of classic fairy tales. This album is full of romantic and relaxing piano-based songs that are meant to inspire and make you think!
+			</p>
+			<p>
+			I currently produce music for bands and artists in my own studio located in the San Francisco Bay Area, and I have composed music for small films, movie trailers, the web and other multimedia projects. If you're in the San Francisco area, or want to collaborate online from anywhere in the world, let me know!
+			</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img id="about-pic" class="featurette-image img-responsive center-block" src="images/peter-cole-400x500-crop-BW.jpg" alt="My Pic" width="500" -->
         </div>
       </div>
+   
+
+
+
+
+    <!--*********** MUSIC *****************-->
+
+      <span class="featurette-divider" id="music"></span>
+
+		<div class="row featurette" id="music-content">
+
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Music. <span class="text-muted"> Listen.</span></h2>
+          <p class="lead">Here are examples of some of my recent work.</p>
+        </div>
+
+		<!-- Emdbed the Soundcloud Players -->
+
+	 		<div class="row"> <!-- First Row of 3 -->
+		        <div class="col-lg-4">
+		          <h3>Current CD</h3>	          
+	         		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/264353436&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		        </div><!-- /.col-lg-4 -->
+
+		        <div class="col-lg-4">
+		          <h3>Epic Cinematic Orchestra</h3>
+	          		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/283998439&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		        </div><!-- /.col-lg-4 -->
+
+		        <div class="col-lg-4">
+		       		<h3>Ambient, Drones</h3>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/301606180&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		        </div><!-- /.col-lg-4 -->
+		   </div><!-- /.row -->  <!-- Close Soundcloud First Row -->
+	    
+
+      </div> <!-- Close Music -->
+
+
+
+
+ 	<!--*********** VISUAL *****************-->
 
       <hr class="featurette-divider" id="visual">
 
-      <div class="row featurette">
+     <div class="row featurette" id="visual-content">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Visual<span class="text-muted">Checkmate.</span></h2>
+          <h2 class="featurette-heading">Visual<span class="text-muted"></span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <!--img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" -->
         </div>
       </div>
+
+
+
+      <!--*********** BUY *****************-->
+
 
       <hr class="featurette-divider" id="buy">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Buy<span class="text-muted">Buy or License.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Buy<span class="text-muted"> or License.</span></h2>
+          <p class="lead">I currently sell my CD's through the following channels.</p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" src="images/logos/Logo-CD_Baby-small.png" alt="CD_Baby">
+        </div>
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" src="images/logos/iTunes_logo.jpg" alt="amazon">
+        </div>
+        <div class="col-md-4">
+          <img class="featurette-image img-responsive center-block" src="images/logos/amazon.com+logo.jpg" alt="amazon">
         </div>
       </div>
+
+
+
+       <!--*********** CONTACT *****************-->
+
 
       <hr class="featurette-divider" id="contact">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Contact<span class="text-muted">Me.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Contact<span class="text-muted"> Me.</span></h2>
+          <p class="lead">Please reach out with any questions about using my composing, producing, engineering, or digital media services for your next project. If you're a fellow musician/artist and interested in collaborating - lets connect!</p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-6">
+
+        <iframe width="100%" height="500" border=0 src="email-form.html"></iframe>
+
         </div>
       </div>
 
@@ -204,10 +264,11 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2017 Peter Cole.  <!--  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> --></p>
       </footer>
 
-    </div><!-- /.container -->
+
+    </div><!-- /.container master-->
 
 
  <!-- Bootstrap core JavaScript
@@ -219,6 +280,29 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!--  script src="../../assets/js/ie10-viewport-bug-workaround.js"></script -->
+
+    <script>
+	   $(document).ready(function() {
+			$('a[href*=\\#]').each(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+			&& location.hostname == this.hostname
+			&& this.hash.replace(/#/,'') ) {
+			var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+			var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+			if ($target) {
+			var targetOffset = $target.offset().top;
+			$(this).click(function() {
+			$("#nav li a").removeClass("active");
+			$(this).addClass('active');
+			$('html, body').animate({scrollTop: targetOffset}, 1000);
+			return false;
+			});
+			}
+			}
+			});
+
+		});
+	</script>
 
 
 

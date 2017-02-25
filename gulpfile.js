@@ -59,9 +59,11 @@ gulp.task('html', ['styles'], function(){
     ignorePath: ['builds/development/', 'builds/production/']
   };
  
-  return gulp.src('index.html')
+  return gulp.src('*.html')
     .pipe(inject(injectFiles, injectOptions))
     .pipe(gulp.dest('builds/development'));
+
+
 });
 
 
